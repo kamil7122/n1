@@ -1,0 +1,79 @@
+body {
+  background: url('tlo/tlo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;		
+	background: #333;
+	color: white;
+	text-align: right;
+	
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  text-decoration: none;
+  color: #111;
+}
+
+#news-module {
+    max-width: 80%;
+    margin: 0 auto;
+	color:white ;
+}
+
+
+#news-module .news-container{
+    margin-bottom: 20px;
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+	left:15%;
+	right:15%;
+}
+
+
+.czerwony{
+color: WHITE;
+}
+
+.zolty{
+color: yellow;
+}
+
+.data{
+font-size:12px;
+}
